@@ -1,0 +1,201 @@
+*, html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #222;
+  padding-bottom: 1000px;
+}
+
+.container-satu {
+  display: flex;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  justify-content: space-between;
+  background-color: #111;
+  box-sizing: border-box;
+}
+
+.content {
+  line-height: 1.5;
+  flex: 3;
+  order: 2;
+  color: #fff;
+}
+
+.content h2 {
+  text-align: center;
+}
+
+.aside-satu {
+  text-align: center;
+  flex: 1;
+  order: 1;
+  color: #fff;
+}
+
+.aside-satu ul {
+  list-style-type: none;
+}
+
+.aside-satu ul li {
+  padding-top: 20px;
+}
+
+.aside-satu ul li a {
+  color: #aaa;
+  text-decoration: none;
+  transition: .3s ease-in-out;
+}
+
+.aside-satu ul li a:hover {
+  color: #fff;
+}
+
+.aside-dua {
+  padding: 20px;
+  flex: 1;
+  order: 3;
+  color: #fff;
+  box-sizing: border-box;
+}
+/* latihan 1 end */
+
+.container-dua {
+  display: flex;
+  margin: 50px auto;
+  max-width: 800px;
+  justify-content: space-between;
+}
+
+.produk-satu {
+  background-color: #1e2bff;
+  padding: 10px;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+.produk-satu h3 {
+  text-align: center;
+}
+
+.produk-dua {
+  background-color: #6eff3e;
+  padding: 10px;
+  margin: 0 10px;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+.produk-dua h3 {
+  text-align: center;
+}
+
+.produk-tiga {
+  background-color: #ff2670;
+  padding: 10px;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+.produk-tiga h3 {
+  text-align: center;
+}
+/* produk 2 end */
+
+.container-tiga {
+  display: flex;
+  margin: 50px auto;
+  max-width: 800px;
+  justify-content: space-between;
+}
+
+.card1 {
+  width: 30%;
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 9px;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.card1 p {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.card2 {
+  width: 30%;
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 9px;
+  transform: scale(1.2);
+}
+
+.card2 p {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.card3 {
+  width: 30%;
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 9px;
+}
+
+.card3 p {
+  font-size: 30px;
+  font-weight: 700;
+}
+/* responsif */
+@media screen and (max-width: 500px) {
+  .container-dua {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .produk-dua {
+    margin: 10px 0;
+  }
+
+  .container-tiga {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card1, .card2, .card3 {
+    margin: 15px 0;
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
