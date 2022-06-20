@@ -179,6 +179,7 @@ body {
   .card1, .card2, .card3 {
     margin: 15px 0;
     width: 100%;
+    Box-sizing: border-box;
   }
 }
 
