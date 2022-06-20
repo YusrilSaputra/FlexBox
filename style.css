@@ -180,6 +180,7 @@ body {
     margin: 15px 0;
     width: 100%;
     Box-sizing: border-box;
+    transform: scale(1);
   }
 }
 
